@@ -12,7 +12,6 @@ export default function AddTodo({ addTodoHandler }) {
 				style={styles.input}
 				placeholder="new todo..."
 				onChangeText={changeHandler}
-				value={text}
 			/>
 			<Button
 				onPress={() => addTodoHandler(text)}
